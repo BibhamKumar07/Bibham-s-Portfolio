@@ -1,0 +1,294 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     background-color: rgb(0, 0, 33);
+     color: white;
+     font-family: 'poppins , sans-serif';
+ }
+
+ nav {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     height: 80px;
+     background-color: rgb(20, 20, 86);
+     overflow: hidden;
+ }
+
+ nav ul {
+     display: flex;
+     justify-content: center;
+
+ }
+
+ nav ul li {
+     list-style-type: none;
+     margin: 0 23px;
+ }
+
+ nav ul li a {
+     text-decoration: none;
+     color: white;
+ }
+
+ nav ul li a:hover {
+     color: rgb(128, 128, 241);
+     font-size: 1.09rem;
+ }
+
+ .nav-toggle {
+     display: none;
+ }
+
+
+ .left {
+     font-size: 2rem;
+ }
+
+ .firstsection {
+     display: flex;
+     justify-content: space-around;
+     text-align: center;
+     margin: 80px 0;
+ }
+
+ .firstsection>div {
+     width: 40%;
+ }
+
+ .leftsection {
+     color: white;
+     font-size: 2.5rem;
+     margin: 15px 0;
+ }
+
+ .leftsection .button {
+     padding: 20px 0;
+ }
+
+ .leftsection .button101 {
+     font-size: 15px;
+     padding: 12px;
+     border-radius: 6px;
+     border: 2px solid white;
+     background-color: rgb(63, 63, 182);
+     color: white;
+     cursor: pointer;
+ }
+
+ .leftsection .button101 a {
+     text-decoration: none;
+     color: white;
+ }
+
+ .rightsection img {
+     width: 45%;
+     margin: 5px 0;
+
+ }
+
+ .name {
+     color: blueviolet;
+ }
+
+ #element {
+     color: rgb(79, 79, 220);
+ }
+
+ main hr {
+     border: 0;
+     background-color: rgb(116, 63, 167);
+     height: 1.2px;
+     margin: 40px 84px;
+ }
+
+
+ .aboutsection .bibham {
+     max-width: 80vw;
+     margin: auto;
+     height: 80vh;
+     font-family: 'Poppins', sans-serif;
+ }
+
+ .aboutsection h1 {
+     font-size: 1.9rem;
+     height: 50px;
+ }
+
+ .aboutsection p {
+     text-align: justify;
+     color: white;
+     font-size: 1.2rem;
+     margin: 0;
+     padding: 0;
+ }
+
+ .aboutsection p b {
+     color: blueviolet;
+ }
+
+ .secondsection {
+     max-width: 80vw;
+     margin: auto;
+     height: 105vh;
+ }
+
+ .secondsection h1 {
+     font-size: 1.9rem;
+ }
+
+ .secondsection .box {
+     background-color: rgb(0, 0, 33);
+     width: 80vw;
+     margin: 40px 0;
+ }
+
+ secondsection .box table,
+ tr,
+ td {
+     width: 90vw;
+     margin: 56px 0;
+     height: 2px;
+     background-color: rgb(111, 111, 207);
+     justify-content: space-evenly;
+     font-size: 18px;
+     text-align: center;
+ }
+
+ .secondsection .box2 {
+     background-color: rgb(116, 63, 167);
+     height: 1.2px;
+     margin: 40px 0;
+ }
+
+ .fourthsection {
+     max-width: 80vw;
+     margin: auto;
+     height: 80vh;
+ }
+
+ .fourthsection h1 {
+     font-size: 1.9rem;
+     padding: 25px;
+     margin: 0;
+ }
+
+ .fourthsection p {
+     text-align: justify;
+     color: white;
+     font-size: 1.4rem;
+     margin: 0;
+     padding: 20px;
+     height: 90px;
+ }
+
+ .fourthsection .contact h4 {
+     height: 3.5vw;
+     margin: 0;
+     padding: 0;
+     margin: 10px 0;
+     border: 20px;
+ }
+
+ .fourthsection .contact h4 a {
+     text-decoration: none;
+     color: rgb(59, 59, 155);
+ }
+
+ footer {
+     background-color: #304146;
+     padding: 23px 120px;
+     height: 60%;
+ }
+
+ .footer {
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .footer ul {
+     list-style: none;
+ }
+
+ footer .footer-right {
+     text-align: center;
+     color: black;
+     padding: 12px 0;
+ }
+ @media screen and (max-width: 1024px) {
+    .firstsection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .firstsection > div {
+        width: 90%;
+        text-align: center;
+    }
+
+    .rightsection img {
+        width: 70%;
+    }
+
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .secondsection,
+    .fourthsection,
+    .aboutsection .bibham {
+        max-width: 95vw;
+        height: auto;
+    }
+
+    .aboutsection p,
+    .fourthsection p {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .secondsection table,
+    .secondsection table td {
+        font-size: 14px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .leftsection {
+        font-size: 1.5rem;
+    }
+
+    .leftsection .button101 {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .fourthsection .contact h4 {
+        font-size: 0.9rem;
+    }
+
+    footer {
+        padding: 15px;
+    }
+}
